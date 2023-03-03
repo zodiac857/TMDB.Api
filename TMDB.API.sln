@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E454051-CC40-45D7-A403-F8F9EDCEC78C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{31D7E9B5-55B1-41B8-9CC1-77B21479F0B8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TMDB.API", "src\TMDB.API\TMDB.API.fsproj", "{51EDF9B8-1B98-4FDF-B1AF-CEC96BC9FCA9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TMDB.API.Integration.Tests", "tests\TMDB.API.Integration.Tests\TMDB.API.Integration.Tests.fsproj", "{9383EF3B-90AC-4521-96D9-13BA31012502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51EDF9B8-1B98-4FDF-B1AF-CEC96BC9FCA9} = {4E454051-CC40-45D7-A403-F8F9EDCEC78C}
+		{9383EF3B-90AC-4521-96D9-13BA31012502} = {31D7E9B5-55B1-41B8-9CC1-77B21479F0B8}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51EDF9B8-1B98-4FDF-B1AF-CEC96BC9FCA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EDF9B8-1B98-4FDF-B1AF-CEC96BC9FCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EDF9B8-1B98-4FDF-B1AF-CEC96BC9FCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EDF9B8-1B98-4FDF-B1AF-CEC96BC9FCA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9383EF3B-90AC-4521-96D9-13BA31012502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9383EF3B-90AC-4521-96D9-13BA31012502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9383EF3B-90AC-4521-96D9-13BA31012502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9383EF3B-90AC-4521-96D9-13BA31012502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
